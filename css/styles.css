@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns:repeat(14,1fr) ;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: black;
+}
+a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+#tp{
+    grid-column: 14/15;
+}
+#kb{
+    grid-column:13/14
+}
+#cegep{
+    grid-column: 12/13;
+}
+h2{
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin:0px;
+    padding-left: 10px;
+}
+.espace{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,3fr);
+    grid-template-rows: 1fr 1fr;
+    font-size: 15px;
+    background-color: gray;
+}
+#moi{
+    grid-column:7/8 ;
+    margin-top:10px;
+    padding-right: 20px;
+}
+#grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content;
+}
+#griditems{
+    grid-row:1/3;
+    grid-column: 3/4;
+    background-color: rgba(0, 204, 255, 0.55);
+}
+article{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    padding-bottom: 30px;
+}
+img{
+    max-width: 350px;
+    margin:auto;
+}
+figure{
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+ul{
+    list-style-type: disc;
+}
+h3{
+    padding-left: 10px;
+}
+#divaside{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#texteimg{
+    padding-right: 10px;
+}
+
+
+
+.kb2 img {
+    width: 350px ;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.galerie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.kb2 img:hover{
+    transform: scale(1.1);
+}
+.img1{
+    border:1px solid #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#imgF{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px; 
+}
+#imgB{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px; 
+}
+#imgC{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px; 
+}
+#imgT{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px; 
+}
+#fond{
+    background-color: rgba(255, 192, 203, 0.329);
+}
+.texte{
+    padding: 15px; 
+}
+.texte:hover{
+    color:rgba(255, 0, 0, 0.446);
+}
+.imge{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid #ccc;
+}
