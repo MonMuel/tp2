@@ -1,3 +1,5 @@
 https://monmuel.github.io/tp2/
 Mon Site
 Samuel Bélanger
+
+Je devais avoir une sections header,nav,main,article,aside,figure,footer et tout cela en utilisant un display grid ce qui est de kb2 je devais m'inspirer de note et apprendre par moi meme et faire une galerie d'images pour expliquer ce que j'ai appris. Pour ce faire j'ai du utiliser des nouvelles balise ainsi que de grid.
