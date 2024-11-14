@@ -100,7 +100,7 @@ h3{
 .galerie{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr min-content ;
 }
 .kb2 img:hover{
     transform: scale(1.1);
@@ -140,9 +140,10 @@ h3{
 .texte:hover{
     color:rgba(255, 0, 0, 0.446);
 }
-.imge{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border:1px solid #ccc;
+.explication{
+    display:flex;
+    margin-top: 5px;
+    text-align: center;
+    border: 2px solid #333;
+    background-color: aqua;
 }
